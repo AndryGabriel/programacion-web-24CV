@@ -1,0 +1,64 @@
+#Titulo{
+    color: brown;
+}
+/*
+#Titulo funciona ya que lo seleccionamos como clase
+en html
+*/
+p.especial{
+    color: blue;
+}
+p.texto{
+    color: green;
+}
+div p{
+    color: red;
+}
+div h2{
+    color: blueviolet;
+}
+div h3{
+    color: greenyellow;
+}
+*{
+    font-size: 24px; 
+}
+/*Este selector universal, va a aplicar las propiedades,
+    solo si este no ah sido definida*/
+    /*
+    .Color{
+        color: rgb(255,0,0);
+    }
+   COLORES EN RGB
+    */
+    .Color{
+       /*  border: 5px green outset; */
+        /*OPCIONES DE BORDE PARA TEXTO
+        dotted
+        dashed
+        solid
+        double
+        ===========================================================
+        VALORES QUE SE PUEDEN ASIGNAR A ELEMENTOS TRIDIMENSIONALES
+        -groove
+        -ridge
+        -inset
+        -outset
+          ===========================================================
+        none
+        hidden
+        */
+        border-style: solid;
+        border-color: blue;
+        border-radius: 5px ;
+        border-width: 5px;
+    }
+    
+
+    #fondo{
+        background-color:rgba(255,0,0);
+        /* opacity: 0.3;*/
+        height: 400px;
+        background-image: url('duende.jpg');
+        background-size: cover;
+    }
